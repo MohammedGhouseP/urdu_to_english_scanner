@@ -1,0 +1,86 @@
+import '../models/project_model.dart';
+
+class ColorThemesData {
+  static const List<PageTheme> presets = [
+    PageTheme(
+      id: 'classic-ivory',
+      name: 'Classic Ivory',
+      backgroundColorHex: '#FFF8E7',
+      textColorHex: '#1B1B1B',
+      headingColorHex: '#0E2A47',
+      borderColorHex: '#C9A24A',
+    ),
+    PageTheme(
+      id: 'night-scholar',
+      name: 'Night Scholar',
+      backgroundColorHex: '#0A1A2E',
+      textColorHex: '#FFF8E7',
+      headingColorHex: '#C9A24A',
+      borderColorHex: '#445063',
+    ),
+    PageTheme(
+      id: 'royal-blue',
+      name: 'Royal Blue',
+      backgroundColorHex: '#F2F6FB',
+      textColorHex: '#0E2A47',
+      headingColorHex: '#1F4B8A',
+      borderColorHex: '#1F4B8A',
+    ),
+    PageTheme(
+      id: 'saffron',
+      name: 'Saffron',
+      backgroundColorHex: '#FFF4DA',
+      textColorHex: '#3D2B0E',
+      headingColorHex: '#C24E00',
+      borderColorHex: '#E08B2A',
+    ),
+    PageTheme(
+      id: 'emerald-manuscript',
+      name: 'Emerald Manuscript',
+      backgroundColorHex: '#F1F7F0',
+      textColorHex: '#102622',
+      headingColorHex: '#0F5132',
+      borderColorHex: '#2E8B57',
+    ),
+    PageTheme(
+      id: 'rose-paper',
+      name: 'Rose Paper',
+      backgroundColorHex: '#FBEFEF',
+      textColorHex: '#3A1A1A',
+      headingColorHex: '#8B1E3F',
+      borderColorHex: '#C77A87',
+    ),
+    PageTheme(
+      id: 'parchment',
+      name: 'Parchment',
+      backgroundColorHex: '#EFE5CB',
+      textColorHex: '#2D2415',
+      headingColorHex: '#5C3A10',
+      borderColorHex: '#9B7A3C',
+    ),
+    PageTheme(
+      id: 'monochrome',
+      name: 'Monochrome',
+      backgroundColorHex: '#FFFFFF',
+      textColorHex: '#111111',
+      headingColorHex: '#000000',
+      borderColorHex: '#777777',
+    ),
+    PageTheme(
+      id: 'dusk-violet',
+      name: 'Dusk Violet',
+      backgroundColorHex: '#F2EDFA',
+      textColorHex: '#221435',
+      headingColorHex: '#3F1D75',
+      borderColorHex: '#7A55C9',
+    ),
+    PageTheme(
+      id: 'desert-sand',
+      name: 'Desert Sand',
+      backgroundColorHex: '#F8E6C2',
+      textColorHex: '#2A1B0A',
+      headingColorHex: '#A65A1A',
+      borderColorHex: '#D9A35B',
+    ),
+  ];
+}

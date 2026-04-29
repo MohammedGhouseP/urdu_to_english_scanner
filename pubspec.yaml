@@ -1,0 +1,44 @@
+name: urdu_to_english_scanner
+description: Scan Urdu books, OCR them, transliterate to Roman English, design pages, export PDF.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  image_picker: ^1.0.4
+  image_cropper: ^5.0.0
+
+  google_mlkit_text_recognition: ^0.11.0
+
+  pdf: ^3.10.7
+  printing: ^5.11.3
+
+  google_fonts: ^6.1.0
+  flutter_colorpicker: ^1.0.3
+
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+
+  provider: ^6.1.1
+
+  uuid: ^4.2.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/scanned_pages/
+    - assets/exported_pdfs/
+    - assets/icons/
